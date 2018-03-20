@@ -21,7 +21,7 @@ import { VoteComponent } from './vote/vote.component';
     VoteComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
     FormsModule
   ],
   providers: [],

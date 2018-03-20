@@ -11,8 +11,7 @@ export class AppComponent {
 
   quotes=[
 
-    new Quote ("God is dead and we have killed him","We lost our way and killed everything good left on earth."1),
-
+    new Quote ("God is dead and we have killed him","We lost our way and killed everything good left on earth.",1)
   ]
 
   @Input() quote:Quote;

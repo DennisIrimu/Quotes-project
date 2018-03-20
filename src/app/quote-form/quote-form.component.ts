@@ -1,6 +1,7 @@
 import { Component, OnInit , Input, Output, EventEmitter,} from '@angular/core';
 import {Quote} from '../quote'
 
+
 @Component({
   selector: 'app-quote-form',
   templateUrl: './quote-form.component.html',
@@ -13,7 +14,7 @@ newQuote= new Quote ('','',0);
 
 submitQuote(){
   this.addQuote.emit(this.newQuote);
-  
+
 }
   constructor() { }
 
